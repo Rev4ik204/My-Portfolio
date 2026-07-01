@@ -1,0 +1,20 @@
+.header .container {
+  padding-top: 28px;
+}
+
+.nav {
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_item_link {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 64px;
+  color: var(--deep-sea);
+  transform: scaleX(0.5);
+}
