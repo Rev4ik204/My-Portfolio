@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/header.css" />
+  
     <title>Portfolio</title>
   </head>
   <body>
@@ -14,16 +14,16 @@
       <div class="container">
         <nav class="nav">
           <ul class="nav_list">
-            <li class="nav_list">
+            <li class="nav_item">
               <a href="#" class="nav_item_link">WORKS</a>
             </li>
-            <li class="nav_list">
+            <li class="nav_item">
               <a href="#" class="nav_item_link">ABOUT</a>
             </li>
-            <li class="nav_list">
+            <li class="nav_item">
               <a href="#" class="nav_item_link">SERVICES</a>
             </li>
-            <li class="nav_list">
+            <li class="nav_item">
               <a href="#" class="nav_item_link">CONTACT</a>
             </li>
           </ul>
@@ -55,6 +55,23 @@
               />
             </svg>
           </div>
+          <picture>
+            <source
+              srcset="./images/foto.avif"
+              type="image/avif"
+            />
+            
+            <source
+              srcset="./images/foto.webp"
+              type="image/webp"
+            />
+            
+            <img
+              class="hero_img"
+              src="./images/foto.png"
+              alt="hero_img"
+            />
+          </picture>
         </div>
       </section>
     </main>

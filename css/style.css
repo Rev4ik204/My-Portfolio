@@ -1,4 +1,7 @@
 @import url("./fons.css");
+@import url("header.css");
+@import url("hero.css");
+
 
 :root {
   --font-family: "Neue Montreal", sans-serif;
@@ -36,21 +39,11 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
-
 
 /* =====HEADER===== */
 
-@import url("header.css");
-
-
-
 /* =====HERO===== */
 
-
-
-
 /* =====FOOTER===== */
-
-

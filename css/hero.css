@@ -1,0 +1,88 @@
+.hero .container {
+  margin-top: -92px;
+  height: 1024px;
+  padding-top: 258px;
+
+  position: relative;
+}
+
+.hero_title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  color: var(--deep-sea);
+
+  width: 350px;
+  text-align: end;
+
+  transform: scaleX(0.8);
+
+  position: absolute;
+  top: 258px;
+  right: 20px;
+}
+
+.hero_discr {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 80px;
+  color: var(--deep-sea);
+
+  border-bottom: 20px solid var(--deep-sea);
+
+  transform: scaleX(0.5);
+  width: 740px;
+  text-align: end;
+
+  position: absolute;
+  top: 536px;
+  right: 20px;
+}
+
+.hero_text1,
+.hero_text2,
+.hero_text3 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 350px;
+  letter-spacing: -5px;
+  line-height: 100%;
+  color: var(--deep-sea);
+
+  transform: scaleX(0.4);
+
+  position: absolute;
+}
+
+.hero_text1 {
+  top: 238px;
+  left: 134px;
+  z-index: 1;
+}
+
+.hero_text2 {
+  left: 20px;
+  top: 517px;
+  z-index: 3;
+}
+
+.hero_text3 {
+    top: 703px;
+    right: 20px;
+z-index: 3;
+}
+
+.hero_arrow {
+    position: absolute;
+    top: 841px;
+    left: 20px;
+}
+
+.hero_img {
+    position: absolute;
+    top: 0;
+    left: 164px;
+    z-index: 2;
+
+}

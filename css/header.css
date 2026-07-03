@@ -1,5 +1,8 @@
 .header .container {
   padding-top: 28px;
+
+  position: relative;
+  z-index: 50;
 }
 
 .nav {
@@ -11,10 +14,20 @@
   justify-content: space-between;
 }
 
+.nav_item{
+  transform: scaleX(0.5);
+
+}
+
+.nav_item:first-child, .nav_item:nth-child(2){
+  display: flex;
+  justify-content: start;
+}
+
 .nav_item_link {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 64px;
   color: var(--deep-sea);
-  transform: scaleX(0.5);
+  /* transform: scaleX(0.5); */
 }
