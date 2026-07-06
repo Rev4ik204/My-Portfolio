@@ -1,7 +1,6 @@
 .hero .container {
   margin-top: -92px;
-  height: 1024px;
-  padding-top: 258px;
+  height:100vh;
 
   position: relative;
 }
@@ -36,8 +35,8 @@
   text-align: end;
 
   position: absolute;
-  top: 536px;
-  right: 20px;
+  top: 476px;
+  right: -150px;
 }
 
 .hero_text1,
@@ -56,33 +55,32 @@
 }
 
 .hero_text1 {
-  top: 238px;
-  left: 134px;
+  top: 170px;
+  left: -100px;
   z-index: 1;
 }
 
 .hero_text2 {
-  left: 20px;
-  top: 517px;
+  left: -350px;
+  top: 450px;
   z-index: 3;
 }
 
 .hero_text3 {
-    top: 703px;
-    right: 20px;
-z-index: 3;
+  top: 580px;
+  right: -510px;
+  z-index: 3;
 }
 
 .hero_arrow {
-    position: absolute;
-    top: 841px;
-    left: 20px;
+  position: absolute;
+  top: 770px;
+  left: 20px;
 }
 
 .hero_img {
-    position: absolute;
-    top: 0;
-    left: 164px;
-    z-index: 2;
-
+  position: absolute;
+  top: 0;
+  left: 44px;
+  z-index: 2;
 }
