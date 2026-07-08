@@ -1,0 +1,42 @@
+.works .container {
+  padding-top: 60px;
+
+  background-color: var(--deep-sea);
+}
+
+.works_title {
+  font-family: var(--second-family);
+  font-weight: 900;
+  font-size: 350px;
+  transform: scaleX(0.4);
+  text-transform: uppercase;
+  line-height: 100%;
+  color: var(--off-white);
+}
+
+.works_list {display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.work {
+    display: flex;
+    gap: 80px;
+
+    background-color: var(--off-white);
+}
+
+.work_info {
+}
+
+.work_title {
+}
+
+.work_discr {
+}
+
+.work_link {
+}
+
+.work_img {
+}
