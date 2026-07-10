@@ -1,0 +1,51 @@
+.services .container {
+  padding: 0px 20px 50px 20px;
+
+  background-color: var(--deep-sea);
+}
+
+.services_title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  color: var(--off-white);
+}
+
+.services_main_text {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 350px;
+  line-height: 100%;
+  text-align: center;
+  color: var(--off-white);
+
+  transform: scaleX(0.2);
+  width: 100%;
+}
+
+.services_content {
+  background-color: var(--off-white);
+
+  display: grid;
+  grid-column: 4;
+}
+
+.text1 {
+}
+
+.text2,
+.text3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: justify;
+  color: var(--deep-sea);
+}
+
+.text2 {
+}
+
+.text3 {
+}
