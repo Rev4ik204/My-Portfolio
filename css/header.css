@@ -16,22 +16,11 @@
 }
 
 .nav_item {
-  transform: scaleX(0.5);
   padding: 0;
 }
 
-.nav_item:first-child,
-.nav_item:nth-child(2) {
-  margin-left: -50px;
-}
-
-.nav_item:nth-child(3),.nav_item:nth-child(4){
-  margin-right: -75px;
-}
-
-.nav_item:nth-child(3){
-  margin-right: -120px;
-  margin-left: 100px;
+.nav_item:nth-child(3) {
+  margin-left: 150px;
 }
 
 .nav_item_link {
@@ -39,5 +28,5 @@
   font-weight: 700;
   font-size: 64px;
   color: var(--deep-sea);
-  /* transform: scaleX(0.5); */
+  
 }

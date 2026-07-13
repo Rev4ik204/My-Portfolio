@@ -1,5 +1,15 @@
 @import url("../fonts/MangoGrotesque/MangoGrotesque-Bold.css");
 
+@font-face {
+  font-family: "MangoGrotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/MangoGrotesque/MangoGrotesque-Bold.ttf") format("truetype");
+  src: url("../fonts/MangoGrotesque/MangoGrotesque-Bold.otf") format("otf");
+  src: url("../fonts/MangoGrotesque/MangoGrotesque-Bold.woff") format("woff");
+  src: url("../fonts/MangoGrotesque/MangoGrotesque-Bold.woff2") format("woff2");
+}
 
 @font-face {
   font-family: "NeueMontreal";
