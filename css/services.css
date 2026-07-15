@@ -11,6 +11,7 @@
   line-height: 100%;
   color: var(--off-white);
   text-align: center;
+  text-transform: uppercase;
 
   margin-bottom: 40px;
 }
@@ -18,25 +19,25 @@
 .services_main_text {
   font-family: var(--second-family);
   font-weight: 700;
-  font-size: 350px;
+  font-size: 320px;
   line-height: 80%;
   text-align: center;
   color: var(--off-white);
+  text-transform: uppercase;
+
 }
 
 .services_content {
   background-color: var(--off-white);
   padding: 20px;
-  
 
   display: grid;
   /* grid-template-columns:1fr 1fr 2fr 1fr ; */
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
-  
 }
 
-.img{
+.img {
   height: 350px;
   border: 2px solid var(--deep-sea);
 }
@@ -54,7 +55,8 @@
   color: var(--deep-sea);
 }
 
-.text2 {padding-top: 50px;
+.text2 {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
