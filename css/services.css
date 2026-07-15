@@ -16,7 +16,7 @@
   margin-bottom: 40px;
 }
 
-.services_main_text {
+.services_main_text, .services_about_text {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 320px;
@@ -61,4 +61,10 @@
 }
 
 .text3 {
+}
+
+.services_about_text{
+  color: var(--deep-sea);
+  background-color: var(--off-white);
+
 }
