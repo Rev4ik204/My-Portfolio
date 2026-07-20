@@ -3,7 +3,7 @@
 @import url("hero.css");
 @import url("works.css");
 @import url("services.css");
-
+@import url("testimonials.css");
 
 :root {
   --font-family: "Neue Montreal", sans-serif;
@@ -33,6 +33,11 @@ button {
 
 a {
   text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 .container {
