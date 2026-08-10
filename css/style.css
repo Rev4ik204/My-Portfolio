@@ -4,6 +4,8 @@
 @import url("works.css");
 @import url("services.css");
 @import url("testimonials.css");
+@import url("brand.css"); 
+@import url("footer.css");
 
 :root {
   --font-family: "Neue Montreal", sans-serif;

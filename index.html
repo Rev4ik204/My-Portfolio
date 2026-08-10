@@ -229,8 +229,22 @@
           <p class="services_main_text">BRAND Developer</p>
           <!-- <p class="services_main_text">GRAPHIC DESIGN</p> -->
           <div class="services_content">
-            <picture class="img"></picture>
-            <div class="text1"></div>
+            <picture class="img">
+              <source
+                srcset="./images/services_img_en.avif"
+                type="image/avif"
+              />
+              <source
+                srcset="./images/services_img_en.webp"
+                type="image/webp"
+              />
+              <img
+                class="services_img"
+                src="./images/services_img_en.png"
+                alt="services_img"
+              />
+            </picture>
+            <!-- <div class="text1"></div> -->
             <div class="text2">
               I’m a beginner web developer. I can build a website based on a
               design you’ve created for your business, project, etc. I can also
@@ -241,12 +255,29 @@
               work as a chat manager or operator.
             </div>
             <div class="text3">
-              When I’m not designing, you’ll usually find me curled up with a
-              good book, walking my rescue dog, Luna, or trying to perfect my
-              oat milk latte at home. I’m a big believer in slow mornings,
-              creative freedom, and building a business that fits your version
-              of success. If you’re ready for a brand and website that feels
-              like home and helps your business grow, I’d love to hear from you.
+              <p class="text3_text">
+                When I’m not designing or laying out websites, you can usually
+                find me: <br />
+                <span>- fixing cell phones;</span> <br />
+                <span>- out for a walk or fishing;</span> <br />
+                <span>- gazing at the moon;</span> <br />
+                <span>
+                  - trying to improve my cooking skills at home or at my summer
+                  cottage — I’m especially good at perfecting my shashlik;
+                </span>
+                <br />
+                <span> - trying to take high-quality, beautiful photos;</span>
+                <br />
+                <span> - learning new ways to create ads and more. </span>
+                <br />
+                I truly believe in peaceful mornings, freedom, and building a
+                business in Ukraine that aligns with your vision of success.
+                <br />
+                If you’re ready to create a brand and a website that will feel
+                like a second home to you and help your business grow, I’d be
+                happy to get in touch with you using the contact information
+                you’ve provided.
+              </p>
             </div>
           </div>
           <p class="services_about_text">ABOUT</p>
@@ -270,7 +301,6 @@
                 <!-- Співпраця з Alex стала справжнім проривом для мого бренду. -->
                 Working with Alex was a real breakthrough for my brand.
               </h3>
-
             </div>
             <div class="testimonial1_content">
               <div class="user_info">
@@ -287,9 +317,54 @@
           </div>
         </div>
       </section>
+      <section class="brand">
+        <div class="container">
+          <h2 class="brand_title">Make your brand unforgettable.</h2>
+          <a href="#" class="brand_link"
+            >Send a Message <span>reva739244@gmail.com</span>
+          </a>
+          <p class="brand_post_title">UNLEASH YOUR BRAND’S POTENTIAL</p>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <div class="subsect1">
+          <div class="social">
+            <a href="https://www.instagram.com/alex2997r/" class="insta_link"
+              >INSTAGRAM</a
+            >
+            <a href="https://www.facebook.com/Alexandrrevo" class="face_link"
+              >FACEBOOK</a
+            >
+            <a
+              href="www.linkedin.com/in/александр-рева-850316425"
+              class="linked_link"
+              >LINKEDIN</a
+            >
+            <a href="https://github.com/Rev4ik204" class="git_link">GITHUB</a>
+            <a href="https://www.t.me/rev4ik99" class="telegram_link"
+              >TELEGRAMM</a
+            >
+          </div>
+          <picture>
+                <source srcset="./images/foto_footer.avif" type="image/avif" />
+                <source srcset="./images/foto_footer.webp" type="image/webp" />
+                <img
+                  class="footer_img"
+                  src="./images/foto_footer.png"
+                  alt="foto_footer"
+                /></picture>
+        </div>
+        <div class="subsect2">
+          <h2 class="footer_title">ALEX Co</h2>
+        </div>
+        <div class="subsect3">
+          <p class="footer_name">ALEX REVA</p>
+          <p class="copiright">© 2026</p>
+          <p class="back_to_top">Back to Top</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

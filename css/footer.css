@@ -1,0 +1,63 @@
+.footer .container {
+    padding-top: 58px;
+    padding-bottom: 42px;
+
+    background-color: var(--deep-sea);
+}
+
+.subsect1 {
+}
+
+.social {
+}
+
+.insta_link {
+}
+
+.face_link {
+}
+
+.linked_link {
+}
+
+.git_link {
+}
+
+.telegram_link {
+}
+
+.footer_img {
+}
+
+.subsect2 {
+}
+
+.footer_title {
+
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 350px;
+line-height: 100%;
+text-align: center;
+color: var(--off-white);
+}
+
+.subsect3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_name, .copiright, .back_to_top {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 100%;
+text-transform: uppercase;
+color: var(--off-white);
+}
+
+.copiright {
+}
+
+.back_to_top {
+}
