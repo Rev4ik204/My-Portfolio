@@ -1,0 +1,501 @@
+
+/* =========================================================
+   RESPONSIVE
+   Desktop-first layout is preserved above 1200px.
+   ========================================================= */
+
+img,
+svg {
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+
+  .nav_item:nth-child(3) {
+    margin-left: 0;
+  }
+
+  .nav_item_link {
+    font-size: clamp(42px, 5.4vw, 64px);
+  }
+
+  .hero .container {
+    margin-top: -70px;
+    min-height: 760px;
+    height: 100vh;
+  }
+
+  .hero_img {
+    width: min(58vw, 620px);
+    top: 70px;
+    left: 4vw;
+  }
+
+  .hero_text1,
+  .hero_text2,
+  .hero_text3 {
+    font-size: clamp(180px, 25vw, 300px);
+  }
+
+  .hero_text1 {
+    top: 180px;
+    left: 6vw;
+  }
+
+  .hero_text2 {
+    top: 410px;
+    left: 2vw;
+  }
+
+  .hero_text3 {
+    top: 500px;
+    right: 2vw;
+  }
+
+  .hero_title {
+    top: 210px;
+    right: 20px;
+    width: min(31vw, 350px);
+    font-size: clamp(22px, 2.5vw, 30px);
+  }
+
+  .hero_discr {
+    top: 380px;
+    right: 20px;
+    font-size: clamp(54px, 6.5vw, 80px);
+    border-bottom-width: clamp(10px, 1.5vw, 20px);
+  }
+
+  .hero_arrow {
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    width: 80px;
+  }
+
+  .works_title,
+  .testimonials_title,
+  .footer_title {
+    font-size: clamp(180px, 27vw, 320px);
+  }
+
+  .work {
+    grid-template-columns: minmax(280px, 1fr) minmax(0, 2.5fr);
+  }
+
+  .work_info {
+    padding: 35px 20px;
+  }
+
+  .work_title {
+    font-size: clamp(58px, 7vw, 96px);
+  }
+
+  .services_main_text,
+  .services_about_text {
+    font-size: clamp(180px, 27vw, 300px);
+  }
+
+  .services_content {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .services_content .img {
+    grid-column: 1 / -1;
+    height: auto;
+  }
+
+  .testimonial1 {
+    padding: 0 40px;
+    width: 100%;
+  }
+
+  .testimonial1_main {
+    width: 100%;
+  }
+
+  .testimonial1_title {
+    width: min(40vw, 350px);
+    font-size: clamp(34px, 4vw, 46px);
+  }
+
+  .testimonial1_discription {
+    width: auto;
+    max-width: 650px;
+    font-size: clamp(28px, 3.5vw, 40px);
+  }
+
+  .brand .container {
+    min-height: 800px;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    gap: 90px;
+  }
+
+  .brand_title,
+  .brand_post_title {
+    font-size: clamp(64px, 9vw, 110px);
+  }
+
+  .footer .container {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 899px) {
+  .header .container {
+    padding-top: 18px;
+  }
+
+  .nav_list {
+    gap: 12px;
+  }
+
+  .nav_item_link {
+    font-size: clamp(30px, 6vw, 48px);
+  }
+
+  .hero .container {
+    margin-top: -30px;
+    min-height: 700px;
+  }
+
+  .hero_img {
+    width: min(70vw, 540px);
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .hero_title {
+    top: 40px;
+    right: 20px;
+    width: min(48vw, 320px);
+    font-size: 22px;
+    z-index: 4;
+  }
+
+  .hero_discr {
+    top: 390px;
+    right: 20px;
+    font-size: clamp(42px, 8vw, 64px);
+    z-index: 4;
+  }
+
+  .hero_text1 {
+    top: 170px;
+    left: 2vw;
+    font-size: clamp(150px, 28vw, 230px);
+  }
+
+  .hero_text2 {
+    top: 340px;
+    left: 2vw;
+    font-size: clamp(150px, 28vw, 230px);
+  }
+
+  .hero_text3 {
+    top: 470px;
+    right: 2vw;
+    font-size: clamp(150px, 28vw, 230px);
+  }
+
+  .hero_arrow {
+    width: 60px;
+  }
+
+  .works .container,
+  .services .container,
+  .testimonials .container,
+  .brand .container,
+  .footer .container {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .works_list {
+    gap: 20px;
+  }
+
+  .work {
+    grid-template-columns: 1fr;
+  }
+
+  .work_info {
+    min-height: 250px;
+    padding: 28px 16px 70px;
+  }
+
+  .work_title {
+    font-size: clamp(54px, 12vw, 82px);
+  }
+
+  .work_link {
+    left: 16px;
+    bottom: 28px;
+  }
+
+  .work_img {
+    width: 100%;
+  }
+
+  .services_title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .services_main_text,
+  .services_about_text {
+    font-size: clamp(100px, 20vw, 180px);
+    line-height: 80%;
+    overflow-wrap: anywhere;
+  }
+
+  .services_content {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 14px;
+  }
+
+  .services_content .img {
+    grid-column: auto;
+  }
+
+  .text2,
+  .text3 {
+    font-size: 19px;
+    line-height: 115%;
+    text-align: left;
+  }
+
+  .text2 span,
+  .text3 span {
+    padding-left: 10px;
+  }
+
+  .testimonial1 {
+    padding: 0 10px;
+    margin-top: 0;
+  }
+
+  .testimonial1_main {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .user1_img {
+    width: min(100%, 300px);
+  }
+
+  .testimonial1_title {
+    width: 100%;
+    font-size: clamp(34px, 7vw, 52px);
+  }
+
+  .testimonial1_content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .user_info {
+    gap: 8px;
+  }
+
+  .testimonial1_discription {
+    width: 100%;
+    font-size: clamp(24px, 5vw, 34px);
+    line-height: 100%;
+  }
+
+  .brand .container {
+    min-height: 680px;
+    padding-top: 50px;
+    gap: 60px;
+  }
+
+  .brand_title,
+  .brand_post_title {
+    font-size: clamp(50px, 12vw, 86px);
+  }
+
+  .brand_link {
+    width: min(100%, 410px);
+    font-size: clamp(24px, 5vw, 32px);
+  }
+
+  .subsect1 {
+    padding: 0 10px 30px;
+    margin-bottom: 30px;
+    gap: 30px;
+  }
+
+  .insta_link,
+  .face_link,
+  .linked_link,
+  .git_link,
+  .telegram_link,
+  .footer_name,
+  .copiright,
+  .back_to_top {
+    font-size: clamp(22px, 4.5vw, 30px);
+  }
+
+  .footer_img {
+    width: min(35vw, 220px);
+    height: auto;
+  }
+
+  .footer_title {
+    font-size: clamp(100px, 24vw, 220px);
+  }
+
+  .subsect3 {
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 599px) {
+  .nav_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+
+  .nav_item_link {
+    font-size: 32px;
+  }
+
+  .hero .container {
+    min-height: 650px;
+    height: 650px;
+  }
+
+  .hero_img {
+    width: 72vw;
+    top: 130px;
+  }
+
+  .hero_title {
+    top: 18px;
+    right: 14px;
+    width: 58vw;
+    font-size: 17px;
+  }
+
+  .hero_discr {
+    top: 350px;
+    right: 14px;
+    font-size: 42px;
+    border-bottom-width: 8px;
+  }
+
+  .hero_text1,
+  .hero_text2,
+  .hero_text3 {
+    font-size: clamp(100px, 28vw, 170px);
+    letter-spacing: -2px;
+  }
+
+  .hero_text1 {
+    top: 190px;
+    left: 0;
+  }
+
+  .hero_text2 {
+    top: 330px;
+    left: 0;
+  }
+
+  .hero_text3 {
+    top: 435px;
+    right: 0;
+  }
+
+  .hero_arrow {
+    bottom: 10px;
+    left: 14px;
+    width: 45px;
+  }
+
+  .works_title,
+  .testimonials_title {
+    font-size: clamp(110px, 27vw, 170px);
+  }
+
+  .works_list {
+    margin-top: -10px;
+  }
+
+  .work_info {
+    min-height: 220px;
+  }
+
+  .work_title {
+    font-size: clamp(46px, 14vw, 70px);
+  }
+
+  .work_discr {
+    font-size: 17px;
+  }
+
+  .work_link {
+    font-size: 20px;
+  }
+
+  .services_main_text,
+  .services_about_text {
+    font-size: clamp(78px, 21vw, 130px);
+  }
+
+  .services_content {
+    padding: 10px;
+  }
+
+  .text2,
+  .text3 {
+    font-size: 17px;
+  }
+
+  .brand .container {
+    min-height: 600px;
+    gap: 45px;
+  }
+
+  .brand_title,
+  .brand_post_title {
+    font-size: clamp(44px, 12vw, 68px);
+  }
+
+  .brand_link {
+    font-size: 22px;
+    border-bottom-width: 3px;
+  }
+
+  .subsect1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer_img {
+    width: 180px;
+  }
+
+  .footer_title {
+    font-size: clamp(90px, 25vw, 150px);
+  }
+
+  .subsect3 {
+    flex-direction: column;
+  }
+}
