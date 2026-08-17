@@ -478,7 +478,7 @@ img {
   }
 
   .testimonial1_discription {
-    font-size: clamp(16px, 5vw, 22px);
+    font-size: clamp(16px, 5vw, 18px);
   }
 
   .brand .container {
@@ -488,7 +488,7 @@ img {
 
   .brand_title,
   .brand_post_title {
-    font-size: clamp(44px, 12vw, 68px);
+    font-size: clamp(44px, 2vw, 50px);
   }
 
   .brand_link {
@@ -496,8 +496,12 @@ img {
     border-bottom-width: 3px;
   }
 
+  .footer .container{
+    min-height: auto;
+padding-bottom: 48px;
+  }
+
   .subsect1 {
-    flex-direction: column;
     align-items: flex-start;
   }
 
@@ -510,6 +514,5 @@ img {
   }
 
   .subsect3 {
-    flex-direction: column;
   }
 }
