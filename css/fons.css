@@ -12,6 +12,15 @@
 }
 
 @font-face {
+  font-family: "DrukCond";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/DrukCond-Super-Cy-Gr-Web.ttf") format("truetype");
+ 
+}
+
+@font-face {
   font-family: "NeueMontreal";
   font-style: normal;
   font-weight: 400;

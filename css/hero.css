@@ -57,12 +57,14 @@
 }
 
 .hero_text1 {
+
   top: 180px;
   left: 100px;
   z-index: 1;
 }
 
 .hero_text2 {
+
   left: 20px;
   top: 470px;
   z-index: 3;

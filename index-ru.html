@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style_cyr.css" />
 
     <title>Portfolio</title>
   </head>
@@ -15,16 +16,16 @@
         <nav class="nav">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="#works" class="nav_item_link">WORKS</a>
+              <a href="#works" class="nav_item_link">ПРОЭКТЫ</a>
             </li>
             <li class="nav_item">
-              <a href="#" class="nav_item_link">ABOUT</a>
+              <a href="#about" class="nav_item_link">ПРО МЕНЯ</a>
             </li>
             <li class="nav_item">
-              <a href="#services" class="nav_item_link">SERVICES</a>
+              <a href="#services" class="nav_item_link">УСЛУГИ</a>
             </li>
             <li class="nav_item">
-              <a href="#" class="nav_item_link">CONTACT</a>
+              <a href="#contact" class="nav_item_link">КОНТАКТЫ</a>
             </li>
           </ul>
         </nav>
@@ -33,14 +34,11 @@
     <main class="main">
       <section class="hero">
         <div class="container">
-          <h1 class="hero_title">
-            I DESIGN BOLD BRANDS & WEBSITES THAT STAND OUT, SELL STRONG AND
-            SCALE.
-          </h1>
-          <p class="hero_discr">START A PROJECT</p>
+          <h1 class="hero_title"></h1>
+          <p class="hero_discr">Начало Проекта</p>
           <p class="hero_text1">WEB</p>
           <p class="hero_text2">BRAND</p>
-          <p class="hero_text3">DESIGNER</p>
+          <p class="hero_text3">Designer</p>
           <div class="hero_arrow">
             <svg
               width="119"
@@ -162,7 +160,7 @@
                   href="https://rev4ik204.github.io/burger_cafe/"
                   target="_blank"
                   class="work_link"
-                  >View the project</a
+                  >Посмотреть Проект</a
                 >
               </div>
               <picture>
@@ -252,7 +250,7 @@
           <p class="services_main_text">WEB Developer</p>
           <p class="services_main_text">BRAND Developer</p>
           <!-- <p class="services_main_text">GRAPHIC DESIGN</p> -->
-          <div class="services_content">
+          <div class="services_content" id="about">
             <picture class="img">
               <source
                 srcset="./images/services_img_en.avif"
@@ -270,37 +268,45 @@
             </picture>
             <!-- <div class="text1"></div> -->
             <div class="text2">
-              I’m a beginner web developer. I can build a website based on a
-              design you’ve created for your business, project, etc. I can also
-              create a portfolio for you and run ads on social media platforms
-              such as Instagram, TikTok, Facebook, and Threads. I can also set
-              up “targeted ads” for you and create a Telegram chatbot on any
-              topic. We can discuss targeting options. I’m also available to
-              work as a chat manager or operator.
+              Я начинающий веб-разработчик. Я могу создать сайт на основе
+              дизайна, который вы разработали для своего бизнеса, проекта и т.
+              д. Я также могу создать для вас портфолио и запустить рекламу в
+              социальных сетях, таких как Instagram, TikTok, Facebook и Threads.
+              Кроме того, я могу настроить для вас «таргетированную рекламу» и
+              создать чат-бота в Telegram на любую тему. Мы можем обсудить
+              варианты таргетинга. Кроме того, я готов работать менеджером или
+              оператором чата.
             </div>
             <div class="text3">
               <p class="text3_text">
-                When I’m not designing or laying out websites, you can usually
-                find me: <br />
-                <span>- fixing cell phones;</span> <br />
-                <span>- out for a walk or fishing;</span> <br />
-                <span>- gazing at the moon;</span> <br />
+                Когда я не занимаюсь разработкой или версткой сайтов, обычно
+                можно найти за : <br />
+                <span>- сервисом мобильных телефонов;</span> <br />
+                <span>- на прогулку или на рыбалку;</span> <br />
+                <span>- созерцая луну;</span> <br />
                 <span>
-                  - trying to improve my cooking skills at home or at my summer
-                  cottage — I’m especially good at perfecting my shashlik;
+                  - стараюсь совершенствовать свои кулинарные навыки дома или на
+                  даче — особенно хорошо у меня получается готовить шашлык;
                 </span>
                 <br />
-                <span> - trying to take high-quality, beautiful photos;</span>
+                <span>
+                  - стремление делать красивые фотографии высокого
+                  качества;</span
+                >
                 <br />
-                <span> - learning new ways to create ads and more. </span>
+                <span>
+                  - изучение новых способов создания рекламных объявлений и
+                  многое другое.
+                </span>
                 <br />
-                I truly believe in peaceful mornings, freedom, and building a
-                business in Ukraine that aligns with your vision of success.
+                Я искренне верю в спокойные утра, свободу и создание бизнеса в
+                Украине, который будет соответствовать вашему представлению об
+                успехе.
                 <br />
-                If you’re ready to create a brand and a website that will feel
-                like a second home to you and help your business grow, I’d be
-                happy to get in touch with you using the contact information
-                you’ve provided.
+                Если вы готовы создать бренд и сайт, которые станут для вас
+                словно вторым домом и помогут вашему бизнесу расти, я с
+                удовольствием свяжусь с вами, используя контактные данные,
+                которые вы указали.
               </p>
             </div>
           </div>
@@ -323,7 +329,7 @@
               </picture>
               <h3 class="testimonial1_title">
                 <!-- Співпраця з Alex стала справжнім проривом для мого бренду. -->
-                Working with Alex was a real breakthrough for my brand.
+                Работа с Алексом стала настоящим прорывом для моего бренда.
               </h3>
             </div>
             <div class="testimonial1_content">
@@ -343,15 +349,15 @@
       </section>
       <section class="brand">
         <div class="container">
-          <h2 class="brand_title">Make your brand unforgettable.</h2>
+          <h2 class="brand_title">Сделайте свой бренд незабываемым.</h2>
           <a href="#" class="brand_link"
-            >Send a Message <span>reva739244@gmail.com</span>
+            >Отправить сообщение <span>reva739244@gmail.com</span>
           </a>
-          <p class="brand_post_title">UNLEASH YOUR BRAND’S POTENTIAL</p>
+          <p class="brand_post_title">РАСКРОЙТЕ ПОТЕНЦИАЛ ВАШЕГО БРЕНДА</p>
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="container">
         <div class="subsect1">
           <div class="social">
@@ -370,6 +376,7 @@
             <a href="https://www.t.me/rev4ik99" class="telegram_link"
               >TELEGRAM</a
             >
+            <a href="tel:+380937655023" class="tel_link">☏ +380(93)765-50-23</a>
           </div>
           <picture>
             <source srcset="./images/foto_footer.avif" type="image/avif" />

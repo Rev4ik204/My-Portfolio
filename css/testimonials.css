@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 .testimonials_title {
@@ -23,7 +23,6 @@
   gap: 20px;
 
   padding: 0 100px;
-  margin-top: -50px;
 }
 
 .testimonial1_main {
@@ -41,7 +40,7 @@
 .testimonial1_title {
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 46px;
+  font-size: 40px;
   line-height: 120%;
   color: var(--off-white);
 
@@ -72,8 +71,8 @@
 .testimonial1_discription {
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 40px;
-  line-height: 90%;
+  font-size: 32px;
+  line-height: 110%;
   color: var(--off-white);
 
   width: 650px;
