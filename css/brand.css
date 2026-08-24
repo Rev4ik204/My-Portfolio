@@ -1,12 +1,12 @@
 .brand .container {
     width: 100%;
-    height: 1024px;
-padding-top: 82px;
+    height:100vh;
+padding-top: 40px;
 
 display: flex;
 flex-direction: column;
 align-items: center;
-gap: 150px;
+gap: 50px;
     
     background-image: image-set(
     url("../images/brand_img.avif") type("image/avif"),
@@ -35,7 +35,7 @@ color: var(--off-white);
 
 width: 410px;
 border-bottom: 5px solid  var(--off-white);
-margin-top: 50px;
+margin-top: 200px;
 
 span{
     font-weight: 700;
