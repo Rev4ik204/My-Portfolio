@@ -30,3 +30,70 @@
   color: var(--deep-sea);
   
 }
+
+/* ====================.mob-dropbtn=================== */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  position: relative;
+  /* position: absolute;
+  top: 0;
+  right: 40px; */
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  /* display: none; */
+  position: absolute;
+  /* right: 35px;
+  top: 33px; */
+  background-color: #554d4d;
+  width: 60px;
+}
+
+.dropbtn {
+  background: url("https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png")
+    no-repeat left center;
+  padding-left: 25px;
+  width: 50px;
+}
+
+.dropbtn::after {
+  background: rgba(0, 0, 0, 0)
+    url("https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-16.png")
+    no-repeat scroll right center;
+  content: "";
+  height: 16px;
+  position: absolute;
+  right: -12px;
+  top: 7px;
+  width: 16px;
+}
+
+.dropdown-content > a:first-child {
+  background: url("https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png")
+    no-repeat;
+  background-position: 4px center;
+}
+.dropdown-content > a:last-child {
+  background: url("http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png")
+    no-repeat;
+  background-position: 4px center;
+}
+.dropdown-content > a {
+  color: black;
+  padding: 4px 4px 4px 30px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #464343;
+}
+.dropdown:hover > .dropdown-content {
+  display: block;
+}
+/* =========================================== */
