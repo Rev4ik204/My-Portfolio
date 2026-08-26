@@ -6,6 +6,12 @@
 }
 
 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 50px;
+
+  height: 150px;
 }
 
 .nav_list {
@@ -13,6 +19,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0;
+
+  width: 100%;
 }
 
 .nav_item {
@@ -44,22 +52,32 @@
   right: 40px; */
   padding: 5px;
   cursor: pointer;
+
+   font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 40px;
+  color: var(--deep-sea);
 }
 
 .dropdown-content {
-  /* display: none; */
+  display: none;
   position: absolute;
   /* right: 35px;
   top: 33px; */
-  background-color: #554d4d;
+  background-color: #ececec;
   width: 60px;
+
+   font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 30px;
+  color: var(--deep-sea);
 }
 
 .dropbtn {
   background: url("https://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/16/Ukraine-Flag-icon.png")
     no-repeat left center;
   padding-left: 25px;
-  width: 50px;
+  width: 30px;
 }
 
 .dropbtn::after {
@@ -85,13 +103,14 @@
   background-position: 4px center;
 }
 .dropdown-content > a {
-  color: black;
+  color: var(--deep-sea);
+
   padding: 4px 4px 4px 30px;
   text-decoration: none;
   display: block;
 }
 .dropdown-content a:hover {
-  background-color: #464343;
+  background-color: #ececec;
 }
 .dropdown:hover > .dropdown-content {
   display: block;

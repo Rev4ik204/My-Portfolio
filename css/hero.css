@@ -1,5 +1,5 @@
 .hero .container {
-  margin-top: -92px;
+  margin-top: -170px;
   height: 100vh;
 
   position: relative;
@@ -82,7 +82,7 @@
 }
 
 .hero_img {
-  top: 0;
+  top:20px;
   left: 44px;
   z-index: 2;
 }
